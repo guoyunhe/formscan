@@ -1,0 +1,29 @@
+{
+  "name": "formscan",
+  "version": "1.0.0",
+  "description": "Commandline tool to process scanned PDF document and output CSV data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/formscan.git"
+  },
+  "keywords": [
+    "ocr",
+    "scan",
+    "pdf",
+    "csv"
+  ],
+  "author": "Guo Yunhe",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/formscan/issues"
+  },
+  "homepage": "https://github.com/guoyunhe/formscan#readme",
+  "dependencies": {
+    "pdf2img": "^0.5.0"
+  }
+}
