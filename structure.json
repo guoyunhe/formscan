@@ -15,10 +15,10 @@
             "type": "checkbox",
             "value": "1",
             "boundary": {
-                "left": 0.22,
-                "right": 0.262,
-                "top": 0.301,
-                "bottom": 0.325
+                "left": 0.226,
+                "right": 0.254,
+                "top": 0.306,
+                "bottom": 0.320
             }
         }
     ]

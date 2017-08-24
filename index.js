@@ -1,12 +1,13 @@
 var fs = require('fs');
 var path = require('path');
 var gm = require('gm');
+var getColors = require('get-image-colors');
+var getPixels = require("get-pixels");
 var pdf2img = require('pdf2img');
 var tesseract = require('node-tesseract');
+var _ = require('lodash');
 
 var structure = JSON.parse(fs.readFileSync(path.join(__dirname, 'structure.json'), 'utf8'));
-
-console.log(structure);
 
 var input = path.join(__dirname, 'data', 'input.pdf');
 
@@ -51,7 +52,16 @@ pdf2img.convert(input, function (err, info) {
                                 console.log(area.name + ': ' + text);
                             });
                         } else if (area.type === 'checkbox') {
-
+                            getPixels(outputPath, function (err, pixels) {
+                                if (err) {
+                                    console.log(err);
+                                    return;
+                                }
+                                const mean = _.mean(pixels.data);
+                                if (mean < 250) {
+                                    console.log(area.name + ': ' + area.value);
+                                }
+                            });
                         }
                     });
                 });
