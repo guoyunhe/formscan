@@ -1,0 +1,25 @@
+[
+    [
+        {
+            "name": "serial_number",
+            "type": "text",
+            "boundary": {
+                "left": 0.713,
+                "right": 0.920,
+                "top": 0.109,
+                "bottom": 0.141
+            }
+        },
+        {
+            "name": "k1",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "left": 0.22,
+                "right": 0.262,
+                "top": 0.301,
+                "bottom": 0.325
+            }
+        }
+    ]
+]
