@@ -32,10 +32,10 @@ pdf2img.convert(input, function (err, info) {
                 structure[i].map(function (area, j) {
                     let outputPath = path.join(__dirname, 'data', 'pages', 'area_' + i + '_' + j + '.png');
                     gm(image.path).crop(
-                        size.width * (area.boundary.right - area.boundary.left),
-                        size.height * (area.boundary.bottom - area.boundary.top),
-                        size.width * area.boundary.left,
-                        size.height * area.boundary.top
+                        size.width * area.boundary.w,
+                        size.height * area.boundary.h,
+                        size.width * area.boundary.x,
+                        size.height * area.boundary.y
                     ).write(outputPath, function (err) {
                         if (err) {
                             console.log(err);

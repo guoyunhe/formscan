@@ -4,10 +4,10 @@
             "name": "serial_number",
             "type": "text",
             "boundary": {
-                "left": 0.713,
-                "right": 0.920,
-                "top": 0.109,
-                "bottom": 0.141
+                "x": 0.712,
+                "y": 0.110,
+                "w": 0.205,
+                "h": 0.029
             }
         },
         {
@@ -15,10 +15,494 @@
             "type": "checkbox",
             "value": "1",
             "boundary": {
-                "left": 0.226,
-                "right": 0.254,
-                "top": 0.306,
-                "bottom": 0.320
+                "x": 0.227,
+                "y": 0.306,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k1",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.306,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k1",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.306,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k1",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.306,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k1",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.306,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k2",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.408,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k2",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.408,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k2",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.408,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k2",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.408,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k2",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.408,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k3",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.477,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k3",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.477,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k3",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.477,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k3",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.477,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k3",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.477,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k4",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.546,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k4",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.546,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k4",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.546,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k4",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.546,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k4",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.546,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k5",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.615,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k5",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.615,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k5",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.615,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k5",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.615,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k5",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.615,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k6",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.685,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k6",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.685,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k6",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.685,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k6",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.685,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k6",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.685,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k7",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.754,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k7",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.754,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k7",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.754,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k7",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.754,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k7",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.754,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k8",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.823,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k8",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.823,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k8",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.823,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k8",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.823,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k8",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.823,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k9",
+            "type": "checkbox",
+            "value": "1",
+            "boundary": {
+                "x": 0.227,
+                "y": 0.892,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k9",
+            "type": "checkbox",
+            "value": "2",
+            "boundary": {
+                "x": 0.380,
+                "y": 0.892,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k9",
+            "type": "checkbox",
+            "value": "3",
+            "boundary": {
+                "x": 0.532,
+                "y": 0.892,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k9",
+            "type": "checkbox",
+            "value": "4",
+            "boundary": {
+                "x": 0.684,
+                "y": 0.892,
+                "w": 0.027,
+                "h": 0.013
+            }
+        },
+        {
+            "name": "k9",
+            "type": "checkbox",
+            "value": "5",
+            "boundary": {
+                "x": 0.836,
+                "y": 0.892,
+                "w": 0.027,
+                "h": 0.013
             }
         }
     ]
